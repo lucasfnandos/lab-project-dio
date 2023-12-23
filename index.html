@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Project - DIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--<header class="">
+    <h1>Escrevendo as classes de um jogo!</h1>
+    </header> -->
+    
+    <main class="">
+        <div class="wrapper">
+            <form method="get" action="index.php" class="form">
+                <h1>Informações do Herói</h1>
+                <div class="input-box">
+                    <label for="nome">Nome do Herói:</label>
+                    <input type="text" name="nome" placeholder="Digite o nome do seu herói!" required>
+                </div>
+                <div class="input-box">
+                    <label for="idade">Idade</label>
+                    <input type="number" name="idade" min="0" max="100" required>
+                </div>
+                <div class="input-box">
+                    <label for="tipo">Tipo:</label>
+                    <select name="tipo" id="tipo">
+                        <option value="monge">Monge</option>
+                        <option value="guerreiro">Guerreiro</option>
+                        <option value="ninja" selected>Ninja</option>
+                        <option value="mago">Mago</option>
+                    </select>
+                </div>
+                    <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>
